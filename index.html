@@ -3,60 +3,399 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Next Gen AI</title>
+
+<title>Next Gen AI | AI Tools & Software Reviews</title>
+
+<meta name="description" content="Discover the best AI tools, software reviews, tutorials and online business resources.">
+
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:#0d1117;color:#fff}
-header{background:#161b22;padding:18px 24px;display:flex;justify-content:space-between;align-items:center}
-header h1{color:#33d6ff;margin:0}
-nav a{color:#fff;text-decoration:none;margin-left:16px}
-.hero{padding:80px 20px;text-align:center;background:linear-gradient(135deg,#022,#035,#08a)}
-.btn{display:inline-block;padding:12px 22px;background:#33d6ff;color:#000;text-decoration:none;border-radius:8px;font-weight:bold}
-section{max-width:1100px;margin:auto;padding:50px 20px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
-.card{background:#161b22;padding:20px;border-radius:10px}
-footer{background:#161b22;text-align:center;padding:20px}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#0d1117;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:#111827;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00d9ff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00d9ff;
+}
+
+.hero{
+
+background:linear-gradient(135deg,#0f172a,#0ea5e9);
+
+padding:100px 8%;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:48px;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+max-width:800px;
+
+margin:auto;
+
+margin-bottom:35px;
+
+}
+
+.button{
+
+display:inline-block;
+
+background:#00d9ff;
+
+color:#111;
+
+padding:16px 35px;
+
+text-decoration:none;
+
+border-radius:50px;
+
+font-weight:bold;
+
+transition:.3s;
+
+}
+
+.button:hover{
+
+background:white;
+
+transform:scale(1.05);
+
+}
+
+.container{
+
+width:90%;
+
+max-width:1100px;
+
+margin:auto;
+
+padding:70px 0;
+
+}
+
+.section-title{
+
+text-align:center;
+
+font-size:36px;
+
+margin-bottom:40px;
+
+color:#00d9ff;
+
+}
+
+.card{
+
+background:#161b22;
+
+border-radius:15px;
+
+padding:25px;
+
+margin-bottom:30px;
+
+box-shadow:0 0 15px rgba(0,217,255,.15);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+}
+
+.card h3{
+
+margin-bottom:15px;
+
+color:#00d9ff;
+
+}
+
+.card ul{
+
+margin:20px;
+
+}
+
+.card li{
+
+margin-bottom:10px;
+
+}
+
+.buy-btn{
+
+display:inline-block;
+
+margin-top:20px;
+
+background:#00d9ff;
+
+color:#111;
+
+padding:14px 28px;
+
+text-decoration:none;
+
+border-radius:40px;
+
+font-weight:bold;
+
+}
+
+.buy-btn:hover{
+
+background:white;
+
+}
+
+footer{
+
+background:#111827;
+
+text-align:center;
+
+padding:30px;
+
+margin-top:60px;
+
+}
+
+footer a{
+
+color:#00d9ff;
+
+text-decoration:none;
+
+}
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+}
+
+nav{
+
+margin-top:15px;
+
+}
+
+.hero h1{
+
+font-size:34px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+}
+
 </style>
+
 </head>
+
 <body>
+
 <header>
-<h1>Next Gen AI</h1>
+
+<div class="logo">🤖 Next Gen AI</div>
+
 <nav>
-<a href="#home">Home</a>
-<a href="#about">About</a>
+
+<a href="#">Home</a>
+
 <a href="#tools">AI Tools</a>
+
+<a href="#about">About</a>
+
 <a href="#contact">Contact</a>
+
 </nav>
+
 </header>
 
-<section class="hero" id="home">
-<h2>Welcome to Next Gen AI</h2>
-<p>Discover AI tools, software reviews, tutorials and practical guides to help you work smarter.</p>
-<p><a class="btn" href="#tools">Explore AI Tools</a></p>
-</section>
+<section class="hero">
 
-<section id="about">
-<h2>About Next Gen AI</h2>
-<p>Next Gen AI is dedicated to helping beginners and professionals discover useful AI software through honest reviews, tutorials and comparisons.</p>
-</section>
+<h1>Discover the Best AI Tools for Business & Productivity</h1>
 
-<section id="tools">
-<h2>Featured Categories</h2>
-<div class="cards">
-<div class="card"><h3>AI Writing</h3><p>Writing assistants and content tools.</p></div>
-<div class="card"><h3>AI Images</h3><p>Image generation and editing tools.</p></div>
-<div class="card"><h3>AI Video</h3><p>Video creation and editing software.</p></div>
-<div class="card"><h3>Product Reviews</h3><p>Detailed reviews with affiliate links where appropriate.</p></div>
+<p>
+
+Welcome to Next Gen AI — your destination for AI software reviews, online business resources, and carefully selected tools to help you work smarter and grow your business.
+
+</p>
+
+<a href="#tools" class="button">Explore AI Tools</a>
+
+</section>
+<section id="tools" class="container">
+
+<h2 class="section-title">🔥 Featured AI Tool</h2>
+
+<div class="card">
+
+<h3>7 Figure Accelerator</h3>
+
+<p>
+7 Figure Accelerator is an online training programme designed to teach practical strategies for building and growing an online business. It covers marketing concepts, business growth techniques, and step-by-step guidance for people who want to improve their online skills.
+</p>
+
+<ul>
+<li>✅ Beginner-friendly training</li>
+<li>✅ Learn at your own pace</li>
+<li>✅ Online business strategies</li>
+<li>✅ Digital marketing concepts</li>
+<li>✅ Business growth guidance</li>
+</ul>
+
+<a class="buy-btn"
+href="https://jvz8.com/c/3607945/415009/"
+target="_blank"
+rel="noopener noreferrer">
+🚀 Get Instant Access
+</a>
+
 </div>
+
+<div class="card">
+
+<h3>Why Choose Next Gen AI?</h3>
+
+<p>
+Next Gen AI helps you discover AI software, online business resources, and productivity tools. Every recommendation is intended to help you find useful software more easily.
+</p>
+
+</div>
+
 </section>
 
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: your-email@example.com</p>
-<p>More content coming soon!</p>
+<section id="about" class="container">
+
+<h2 class="section-title">About Next Gen AI</h2>
+
+<div class="card">
+
+<p>
+Next Gen AI is dedicated to reviewing AI software, online business resources, and digital tools. Our goal is to make it easier for beginners and experienced users alike to discover tools that can improve productivity and support their online business journey.
+</p>
+
+</div>
+
+</section>
+
+<section class="container">
+
+<h2 class="section-title">Affiliate Disclosure</h2>
+
+<div class="card">
+
+<p>
+Some links on this website are affiliate links. This means I may earn a commission if you purchase through those links, at no additional cost to you. I aim to recommend products that I believe may be valuable to my visitors.
+</p>
+
+</div>
+
+  </section>
+  <section id="contact" class="container">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="card">
+
+<p>
+Have questions or want to get in touch? Feel free to send me an email.
+</p>
+
+<p style="margin-top:20px;">
+<strong>Email:</strong>
+<a href="mailto:davidobago10@gmail.com">
+davidobago10@gmail.com
+</a>
+</p>
+
+</div>
+
 </section>
 
 <footer>
-<p>&copy; 2026 Next Gen AI. All rights reserved.</p>
+
+<p><strong>🤖 Next Gen AI</strong></p>
+
+<p>
+Helping you discover AI software, online business resources and productivity tools.
+</p>
+
+<p style="margin-top:15px;">
+Contact:
+<a href="mailto:davidobago10@gmail.com">
+davidobago10@gmail.com
+</a>
+</p>
+
+<p style="margin-top:15px;">
+© 2026 Next Gen AI. All Rights Reserved.
+</p>
+
 </footer>
+
 </body>
 </html>
